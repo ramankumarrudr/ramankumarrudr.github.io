@@ -18,6 +18,9 @@
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
     "react-twitter-embed": "3.0.3",
+    "@fortawesome/react-fontawesome": "0.2.0",
+    "@fortawesome/free-brands-svg-icons": "6.4.2",
+    "@fortawesome/free-solid-svg-icons": "6.4.2",
     "sass": "^1.32.8"
   },
   "scripts": {

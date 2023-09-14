@@ -29,7 +29,7 @@ export default function StartupProject() {
                 : "subTitle project-subtitle"
             }
           >
-            {bigProjects.subtitle}
+            {bigProjects.subTitle}
           </p>
 
           <div className="projects-container">
@@ -47,7 +47,7 @@ export default function StartupProject() {
                     <div className="project-image">
                       <img
                         src={project.image}
-                        alt={project.projectName}
+                        alt={project.position}
                         className="card-image"
                       ></img>
                     </div>
@@ -56,14 +56,14 @@ export default function StartupProject() {
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}
                     >
-                      {project.projectName}
+                      {project.position}
                     </h5>
                     <p
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }
                     >
-                      {project.projectDesc}
+                      {project.Recomendation}
                     </p>
                     {project.footerLink ? (
                       <div className="project-card-footer">
